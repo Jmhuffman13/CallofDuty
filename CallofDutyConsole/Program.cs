@@ -12,7 +12,9 @@ namespace CallofDutyConsole
     public class Program
     {
         static void Main(string[] args)
-        { 
+        {
+            Console.WriteLine("Hello World");
+
             var response = WarZoneStats.CallOfDuty();
 
             var player = WarZoneStats.BRCODParse(response);
